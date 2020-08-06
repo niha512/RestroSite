@@ -1,0 +1,24 @@
+.full-div{
+    height: inherit;
+}
+
+.login-background {
+    background: url(../images/loginBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    height: inherit;
+    opacity: 0.5;
+}
+
+.form {
+    background-color: white;
+    border-radius: 10px;
+    padding : 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
