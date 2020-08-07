@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import LoginPage from './components/LoginPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
+import App from './App';
 
 ReactDOM.render(
-    <LoginPage />,  document.getElementById('root')
+    <App />,  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
