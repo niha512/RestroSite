@@ -21,20 +21,20 @@ export default function Header() {
                 <Nav className = "ml-auto">
                 <Nav.Link  href="/menu" className = "nav-text">
                     <span><FontAwesomeIcon icon = {faUtensils}/>
-                    <br className = "d-none d-md-block"/>&nbsp;Menu
+                    <br className = "d-none d-lg-block"/>&nbsp;Menu
                     </span>
                 </Nav.Link>
                 <Nav.Link href="/menu" className = "nav-text">
                     <span><FontAwesomeIcon icon = {faInfo}/>
-                    <br className = "d-none d-md-block"/>&nbsp;About
+                    <br className = "d-none d-lg-block"/>&nbsp;About
                     </span>
                 </Nav.Link>
                 <Nav.Link href="/menu" className = "nav-text">
                     <span><FontAwesomeIcon icon = {faCertificate}/>
-                    <br className = "d-none d-md-block"/>&nbsp;Awards
+                    <br className = "d-none d-lg-block"/>&nbsp;Awards
                     </span>
                 </Nav.Link>
-                <Nav.Link href="/menu" className = "telephone d-none d-md-block" >
+                <Nav.Link href="/menu" className = "telephone d-none d-lg-block" >
                     <span >9994445678</span>
                     <div>* We Deliver</div>
                 </Nav.Link> 
