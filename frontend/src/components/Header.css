@@ -1,0 +1,65 @@
+.restro-name {
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:0;
+    line-height: .75;
+    color: rgb(83, 76, 76);
+    text-decoration: none !important;
+}
+
+
+.logo{
+	background: url("../images/logo.png") no-repeat;
+	width:130px;
+	height:100px;
+	margin:10px 5px 0px 5px;
+}
+
+.header-style{
+	background-color: #f6b319;
+	border:0;
+    border-radius:0;
+    padding:0;
+}
+
+.nav-text{
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'Playfair Display';
+}
+
+.nav-text span{
+    color: #61122f;
+
+}
+.nav-text:hover{
+    background-color: white;
+    padding-bottom: 2px;
+}
+
+.telephone span{
+	font-size: 25px;
+	text-align: right;
+	font-family: 'Playfair Display';
+    padding-bottom: 0;
+    color: #61122f;
+
+}
+
+.telephone span:hover{
+    background-color: white;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+.telephone div {
+	color: #557c3e;
+	text-align: right;
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+
+
+
