@@ -7,7 +7,7 @@ class MainPage extends Component {
 
     render(){
         return(
-            <div style={{backgroundColor:'#61122f', height:'inherit'}}>
+            <div style={{backgroundColor:'#61122f'}}>
                 <Header/>
                 <Contact/>
                 <Slideshow/>
