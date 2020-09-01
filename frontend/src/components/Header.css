@@ -27,6 +27,7 @@
     margin-right: 20px;
     text-align: center;
     font-family: 'Playfair Display';
+    font-weight: bold;
 }
 
 .nav-text span{
@@ -39,11 +40,12 @@
 }
 
 .telephone span{
-	font-size: 25px;
+	font-size: 28px;
 	text-align: right;
-	font-family: 'Playfair Display';
+	font-family: 'serif';
     padding-bottom: 0;
     color: #61122f;
+    font-weight: bold;
 
 }
 

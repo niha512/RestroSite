@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Contact from './Contact';
 import Slideshow from './Slideshow';
+import Tiles from './Tiles';
 
 class MainPage extends Component {
 
@@ -11,6 +12,7 @@ class MainPage extends Component {
                 <Header/>
                 <Contact/>
                 <Slideshow/>
+                <Tiles/>
             </div>
         )
     }

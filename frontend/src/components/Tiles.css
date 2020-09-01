@@ -1,0 +1,41 @@
+
+.special-tile, .menu-tile, .map-tile {
+	height: 250px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 10px;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+}
+
+.special-tile:hover, .menu-tile:hover, .map-tile:hover {
+	box-shadow: 0px 1px 5px 1px #cccccc;
+}
+
+.special-tile{
+	background: url(../images/special.jpg) no-repeat;
+	background-position: center;
+}
+
+.menu-tile{
+	background: url(../images/menu.jpg) no-repeat;
+	background-position: center;
+}
+
+.special-tile span, .menu-tile span, .map-tile span {
+
+	position: absolute;
+	width: 100%;
+	bottom:0;
+	right: 0;
+	text-align: center;
+	font-size: 1.7em;
+	opacity: 0.9;
+	background-color: black;
+	color: #cccccc;
+	font-family: 'Playfair Display';
+}
+
+.map-frame{
+	border: 0;
+}
