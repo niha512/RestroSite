@@ -3,6 +3,7 @@ import Header from './Header';
 import Contact from './Contact';
 import Slideshow from './Slideshow';
 import Tiles from './Tiles';
+import Footer from './Footer';
 
 class MainPage extends Component {
 
@@ -13,6 +14,7 @@ class MainPage extends Component {
                 <Contact/>
                 <Slideshow/>
                 <Tiles/>
+                <Footer/>
             </div>
         )
     }
